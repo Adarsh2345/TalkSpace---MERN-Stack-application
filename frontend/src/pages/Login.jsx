@@ -28,7 +28,7 @@ const Login = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      const { data } = await axios.post('http://localhost:5000/api/users/login', { email, password });
+      const { data } = await axios.post(`${apiURL}/api/users/login`, { email, password });
       localStorage.setItem('userInfo', JSON.stringify(data));
       navigate('/chat');
     } catch (error) {
