@@ -1,2 +1,2 @@
-const apiURL = "http://localhost:5000";
+const apiURL = "https://talkspace-mern-stack-application.onrender.com";
 export default apiURL;
