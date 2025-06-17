@@ -31,6 +31,7 @@ userRouter.post('/register', async (req, res) => {
 // Login route
 userRouter.post('/login', async (req, res) => {
     try {
+        console.log("Login route hit")
         const { email, password } = req.body;
 
         // Check if user exists
