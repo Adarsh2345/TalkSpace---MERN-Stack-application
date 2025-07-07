@@ -129,7 +129,7 @@ const Login = () => {
             </Text>
             <Button
               as="a"
-              href="https://github.com/Adarsh2345"
+              href="https://github.com/Adarsh2345/TalkSpace---MERN-Stack-application"
               target="_blank"
               rel="noopener noreferrer"
               size="sm"
