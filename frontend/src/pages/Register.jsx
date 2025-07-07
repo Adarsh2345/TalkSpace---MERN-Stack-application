@@ -140,7 +140,7 @@ const Register = () => {
 
           <Box mt={8} textAlign="center">
             <Text fontSize="sm" color="gray.500">
-              A student project by [Your Name]
+              A student project by Adarsh
             </Text>
           </Box>
         </VStack>
